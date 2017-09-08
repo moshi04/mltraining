@@ -39,4 +39,4 @@ aggregate(Survived ~ Child + Sex, data=train, FUN=function(x) {sum(x)/length(x)}
 
 # In percentage
 
-aggregate(Survived ~ Child + Sex, data=train, FUN=function(x) {sum(x)/length(x) * 100}
+aggregate(Survived ~ Child + Sex, data=train, FUN=function(x) {sum(x)/length(x) * 100})
